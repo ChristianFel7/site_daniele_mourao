@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-terciaria: #2885D1;
     --cor-body:#131B23;
     --cor-hover: #272727;
 
@@ -64,7 +64,8 @@ body {
  
 .apresentacao__conteudo__texto {
     font-size: 1.4rem;
-    font-family: var(--fonte-secundaria);   
+    font-family: var(--fonte-secundaria);  
+    text-align: justify; 
 }
 
 .apresentacao_about{
@@ -79,6 +80,28 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+
+.apresentacao__trab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__trab__subtitulo {
+
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+.apresentacao__trab__lista{
+    font-size: 1.4rem;
+    font-family: var(--fonte-secundaria);  
+    text-align: justify; 
+
 }
 
 .apresentacao__links {
